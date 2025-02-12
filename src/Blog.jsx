@@ -4,7 +4,7 @@ import blog from './assets/blog.png'
 import c from "./assets/c.png";
 import m from "./assets/m.png";
 import f from "./assets/f.png";
-import ima from "./assets/ima.png";
+import ima from "./assets/Ima.png";
 
 import { MdArrowOutward } from "react-icons/md";
 import Contact from "./Contact";
