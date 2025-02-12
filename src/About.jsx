@@ -334,7 +334,7 @@ const About = () => {
 
             <div className="mt-6 flex justify-center">
               <button
-                className="bg-[#353535] text-[#353535] rounded-full w-full max-w-[380px] py-4 text-lg md:text-xl"
+                className="bg-[#353535] text-white rounded-full w-full max-w-[380px] py-4 text-lg md:text-xl"
                 onClick={() => handleNavigate()}
               >
                 Explore our services
