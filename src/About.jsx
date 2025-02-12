@@ -16,10 +16,14 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import Contacts from "./Contacts";
-
+import { useNavigate } from "react-router-dom";
 
 
 const About = () => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/contacts");
+  };
   return (
     <>
       <div className="w-full flex flex-col">
@@ -329,7 +333,10 @@ const About = () => {
             </div>
 
             <div className="mt-6 flex justify-center">
-              <button className="bg-[#353535] text-white rounded-full w-full max-w-[380px] py-4 text-lg md:text-xl">
+              <button
+                className="bg-[#353535] text-[#353535] rounded-full w-full max-w-[380px] py-4 text-lg md:text-xl"
+                onClick={() => handleNavigate()}
+              >
                 Explore our services
               </button>
             </div>
@@ -372,8 +379,6 @@ const About = () => {
                   />
                 </div>
               </marquee>
-
-              <Contact />
             </div>
           </div>
         </div>

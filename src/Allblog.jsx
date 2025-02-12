@@ -138,6 +138,7 @@ import Contact from "./Contact";
 
 const Allblog = () => {
   const [selectedBlog, setSelectedBlog] = useState(null);
+  const path=window.location.pathname;
 
   const blogs = [
     {
@@ -250,7 +251,7 @@ const Allblog = () => {
             </div>
           ))}
       </div>
-      <Contact />
+      {path != "/" && <Contact />}
     </div>
   );
 };
