@@ -1,13 +1,13 @@
 import React from "react";
 import element from "./assets/Element.png";
 import { IoArrowDown } from "react-icons/io5";
-import Saim from "./assets/Saim.PNG";
-import group from "./assets/group.PNG";
-import Facebook from "./assets/Facebook.PNG";
-import Youtube from "./assets/Youtube.PNG";
-import Pinterest from "./assets/Pinterest.PNG";
-import Twitch from "./assets/Twitch.PNG";
-import Webflow from "./assets/Webflow.PNG";
+import Saim from "./assets/Saim.png";
+import group from "./assets/group.png";
+import Facebook from "./assets/Facebook.png";
+import Youtube from "./assets/Youtube.png";
+import Pinterest from "./assets/Pinterest.png";
+import Twitch from "./assets/Twitch.png";
+import Webflow from "./assets/Webflow.png";
 import Contact from "./Contact";
 import {
   FaHourglassStart,
