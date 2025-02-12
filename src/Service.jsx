@@ -196,7 +196,7 @@
 
 
 import React, { useState } from "react";
-import Elments from "./assets/Elments.png"; // Ensure the path to the image is correct
+import Elmnts from "./assets/Elemnt.png"; // Ensure the path to the image is correct
 import Mobile from "./Mobile";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
@@ -208,7 +208,7 @@ const Service = () => {
     <>
       <div className="relative h-[100%] w-full">
         <img
-          src={Elments}
+          src={Elmnts}
           alt="Element"
           className="w-full h-auto object-cover" // Ensure the image is responsive and covers the space
         />
